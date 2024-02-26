@@ -1,0 +1,99 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad9d9;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  width: 30rem;
+  border: none;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+
+.card h2 {
+  margin-top: 1rem;
+}
+
+.card .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 40%;
+  width: 100%;
+}
+
+/* Input styles */
+.info .input-degree,
+.info .input-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .input-degree label,
+.info .input-type label {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.info .input-degree input,
+.info .input-type select {
+  height: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  outline: none;
+}
+
+/* Result styles */
+.result {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result label {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.result input {
+  height: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  width: 80%;
+  height: 2rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(66, 163, 199);
+  color: white;
+  font-size: 1.2rem;
+}
